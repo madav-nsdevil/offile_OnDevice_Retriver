@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.offline_retirver"
+    namespace = "com.example.vector_retrieval"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.offline_retirver"
+        applicationId = "com.example.vector_retrieval"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -56,4 +56,12 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+//    implementation("androidx.work:work-runtime-ktx:2.11.0")
+//    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
+    implementation(libs.androidx.work.runtime.ktx)
+    implementation(libs.okhttp)
+
+
 }

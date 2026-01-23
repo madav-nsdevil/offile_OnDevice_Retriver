@@ -1,4 +1,4 @@
-package com.example.vector_retrieval.app.data.db
+package com.example.offline_retirver.app.data.db
 
 import android.database.sqlite.SQLiteDatabase
 import kotlin.random.Random
